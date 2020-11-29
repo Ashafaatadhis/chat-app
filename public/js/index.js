@@ -1,4 +1,4 @@
-let socket = io('http://localhost:8000/');
+let socket = io();
 
 socket.on('connect', function () {
     console.log('Connected to server');
